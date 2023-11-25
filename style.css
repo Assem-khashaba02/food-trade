@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection{
+ background-color: #61d134;
+ color: #161515;
+}
+body{
+  background-image: url("shayda-torabi-3iexvMShGfQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+
+}
+.cont{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(11px);
+  width: 67%;
+  height: 78vh;
+  margin-top: 10vh;
+  margin-left: 16%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #200;
+ 
+}
+.cont .img {
+  background-image: url("shayda-torabi-3iexvMShGfQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 78vh;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  border-radius: 0 10px 10px 0;
+  z-index: -1;
+
+}
+@media (max-width:767px){
+  .cont .img {
+    background-image: url("shayda-torabi-3iexvMShGfQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 78vh;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+    z-index: -1;
+    border-radius: 10px;
+
+}
+form{
+  margin-top: 5px;
+}
+}
+
+.input{
+  margin-left:32px;
+}
+.input .logo{
+  font-size: 40px;
+  /* margin-left: 24%; */
+  margin-top: 10px;
+  font-family: cursive ,Arial, Helvetica, sans-serif;
+}
+@media (max-width:400px){
+ .input .logo{
+    font-size: 30px;
+  }
+}
+.input .hw {
+  /* margin-left: 38px; */
+    font-size: 24px;
+    margin-top: 17px;
+    font-weight: 900;
+    margin-bottom: 3px;
+    font-family:monospace ,Arial, Helvetica, sans-serif;
+    color: aquamarine;
+}
+.input .hw2{
+  /* margin-left: 32px; */
+    color: #575151;
+    margin-top: 5px;
+}
+.block{
+  display: block;
+  color: rgba(0, 0, 255, 0.596);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-family: cursive;
+    font-size: 21px;
+}
+input{
+ display: block;
+ z-index: 2;
+}
+input[type="email"],input[type="password"] {
+  color: #777; /* لون النص في حقل الإدخال البريدي */
+  font-size: 15px; /* حجم النص في حقل الإدخال البريدي */
+  background-color: lightgray; /* لون خلفية حقل الإدخال البريدي */
+  border: 1px solid #399515;
+  font-family: "Arial", sans-serif; /* نوع الخط في حقل الإدخال البريدي */
+  padding-left: 8px;
+  box-shadow: 10px 10px 10px #777;
+ width: 75%;
+ height: 28px;
+ outline: none;
+}
+form{
+  margin-top: 13px;
+}
+
+.inline{
+  display: inline;
+}
+
+.a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #626060;
+    margin-top: 10px;
+}
+
+.mar{
+  margin-top: 15px;
+  margin-left: 1px;
+}
+
+
+
+.b{
+  margin-top: 10px;
+}
+
+
+.btu{
+  background: rgb(8, 46, 33);
+    
+    border: 1px solid white;
+    padding: 10px 28px 10px 28px;
+    box-shadow: 10px 10px 10px #777;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: antiquewhite;
+}
+
+.cont .img{
+ 
+  /* transition: all 10s ease; */
+
+animation-name: img;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+.font{
+  background: #9c969696;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 4px;
+width: 50%;
+}
+.color{
+  text-decoration: none;
+    color: #00ff29;
+    font-size: 19px;
+
+}
+@keyframes img{
+  0%{
+   background-image: url("alex-lvrs-On2VseHUDXw-unsplash.jpg");
+   
+ 
+  }
+  25%{
+   background-image: url("fathul-abrar-T-qI_MI2EMA-unsplash.jpg");
+  }
+  50%{
+   background-image: url("food-photographer-E94j3rMcxlw-unsplash.jpg");
+  }
+ 
+  
+
+  75%{
+   background-image: url("chad-montano-lP5MCM6nZ5A-unsplash.jpg");
+  }
+
+  100%{
+   background-image:url("chad-montano-MqT0asuoIcU-unsplash.jpg") ;
+  }
+}

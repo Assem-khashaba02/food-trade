@@ -1,0 +1,252 @@
+:root{
+     --color1:#fff;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: all 0.7s ease;
+}
+
+  
+body{
+    background-image: url("images/body-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.mar{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.one{
+    background-image: url("images/hero-bg.jpg");
+    background-size: cover;
+    height: 105vh;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .l .logo{
+    font-size: 30px;
+    font-family: 'Font Awesome 6 Free';
+    margin-top: 25px;
+   color: var(--color1);
+
+}
+.nav .r{
+    display: flex;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.r .login{
+    color: var(--color1);
+    margin-right: 25px;
+}
+.r .login a {
+    margin-right: 20px;
+    color: var(--color1);
+    text-decoration: none;
+}
+.nav .l .logo a{
+    color: var(--color1);
+    text-decoration: none;
+}
+.login {
+    cursor: pointer;
+}
+.img img{
+    cursor: pointer;
+}
+.cont{
+    
+    text-align: center;
+    margin-top: 40px;
+    color: var(--color1);
+}
+.cont h1{
+    margin-bottom: 35px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: cursive;
+}
+.cont p{
+    margin-bottom: 35px;
+    font-size: 19px;
+    font-family: cursive;
+}
+.input input{
+    height: 40px;
+    width: 22%;
+    border-radius: 50px;
+    outline: none;
+    border: 1px #aaa111;
+    padding: 11px;
+}
+.input button{
+    background: #f1ff01;
+    width: 15%;
+    border: 1px solid #0000006e;
+    cursor: pointer;
+    padding: 0;
+    height: 40px;
+    border-radius: 50px;
+}
+.input button:hover{
+    background-color: transparent;
+}
+.images{
+    margin-left: 100px;
+}
+.images img{
+    height: 170px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: -90px;
+    
+}
+section .images .m1{
+    margin-bottom: -168px;
+
+}
+.about{
+    margin-top: 60px;
+   
+}
+ .hr h1{
+    text-align: center;
+    font-size: 35px;
+}
+.hr h1::before{
+    content: "";
+    position: relative;
+    bottom: auto;
+    left: 47%;
+    /* -webkit-transform: translateX(-50%); */
+    /* transform: translateX(-50%); */
+    width: 75px;
+    height: 5px;
+    background-color: #ff5a00;
+    display: block;
+    bottom: -44px;
+
+}
+.img div img{
+    margin: 38px;
+    border-radius: 1px 45px 1px 45px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+.img div img:hover{
+    box-shadow: -1px 5px 10px #111;
+}
+
+.about .item{
+display: inline-block;
+}
+div .text{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+
+}
+div .text .icon{
+    width: 50px;
+    height: 50px;
+    background: #f1ff01;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 50%;
+    cursor: pointer;
+}
+div .text .icon i{
+    margin: 6px;
+}
+div .text .icon:hover{
+    background-color: #6201ff;
+    color: #fff;
+}
+ .about button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 12px;
+    width: 25%;
+    margin-left: 36%;
+    background: #112456;
+    color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.about button:hover{
+    background-color: transparent;
+    color: #000;
+}
+.item3{
+    background-image: url("images/app-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+.item3 .fl{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+.item3 .text1{
+   width: 35%;
+}
+.item3 .right{
+width: 45%;
+}
+.item3 .right img{
+    height: 50vh;
+    margin-top: 112px;
+    position: relative;
+    left: 300px;
+    top: 69px;
+}
+.img1 img{
+    height: 7vh;
+    margin: 3px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.text1 button{
+    width: 57%;
+    height: 8vh;
+    border-radius: 50px;
+    background: #ffcd00;
+    font-size: 18px;
+    box-shadow: 1px 3px 20px 5px #111;
+    cursor: pointer;
+}
+.text1 button:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.item3 .text1 span{
+    font-size: 37px;
+    color: #e9ff00;
+}
+.item3 .text1 h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.item3 .text1 p{
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: cursive;
+}
+
+
